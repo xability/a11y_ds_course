@@ -1,0 +1,23 @@
+{
+  // Python related settings
+  "python.showStartPage": false,
+  "python.languageServer": "Pylance",
+  "pylance.insidersChannel": "daily",
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.autoImportCompletions": true,
+  // "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "none",
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "isort.args": ["--profile", "black"],
+  // "python.linting.flake8Args": ["--max-line-length=88"],
+  "flake8.args": ["--max-line-length=88"],
+  "python.formatting.blackArgs": ["--line-length", "88"],
+  "black-formatter.args": ["--line-length", "88"]
+}

@@ -1,1 +1,7 @@
+pydataset
+pandas
+numpy
+seaborn
+maidr
 great_tables
+htmltools
