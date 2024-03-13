@@ -5,3 +5,5 @@ seaborn
 maidr
 great_tables
 htmltools
+gapminder
+
