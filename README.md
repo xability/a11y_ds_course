@@ -26,7 +26,7 @@ source a11y_ds/bin/activate
 pip install -r requirements.txt
 ```
     
-    ## Syllabus
+## Syllabus
 
-    Take a look at the [syllabus](syllabus.md) to see the topics we will cover in this course.
+Take a look at the [syllabus](syllabus.md) to see the topics we will cover in this course.
     
