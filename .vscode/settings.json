@@ -1,4 +1,17 @@
 {
+  // Accessibility settings
+  "editor.accessibilitySupport": "on",
+  "editor.wrappingStrategy": "advanced",
+  "workbench.reduceMotion": "on",
+  "explorer.compactFolders": false,
+
+  // Use native window title bar and context menu for better accessibility
+  "window.titleBarStyle": "native",
+  "window.customTitleBarVisibility": "windowed",
+
+  // Display git branch name in the title bar
+  "window.title": "${activeRepositoryBranchName}${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}",
+
   // Python related settings
   "python.showStartPage": false,
   "python.languageServer": "Pylance",
