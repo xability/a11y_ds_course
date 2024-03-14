@@ -3,6 +3,7 @@
         "ms-python.python",
         "ms-python.debugpy",
         "ms-python.black-formatter",
-        "ms-python.isort"
+        "ms-python.isort",
+        "ms-vsliveshare.vsliveshare"
     ]
 }
