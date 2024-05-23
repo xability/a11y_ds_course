@@ -4,247 +4,386 @@ Week 1: Python Review and Introduction to Pandas
 Day 1: Python Basics Review
 ---------------------------
 
-### Python Review 45 Minutes
+### Setup 45 Minutes
 
-1.  What is python and why use it.
+1.  Visual Studio Code
 
-2.  What version
+    a.  Accessibility options
 
-3.  Overview of data types and objects
+    b.  Helpful settings
 
-4.  Basic data types
+    c.  Interpreter settings
 
-    a.  Numeric
+    d.  Python version check
 
-    b.  Boolean
+    e.  Extensions
 
-    c.  Sequences
-
-        i.  Strings
-
-        ii. Range
-
-        iii. Lists
-
-    d.  Membership, identity, and logical operations
-
-    e.  Tuples
-
-5.  Complex Data Types
-
-    f.  Dictionaries
-
-    g.  Sets
+    f.  Terminals
 
 ### 15 minutes questions and break
 
-### Data Modules Overview (45 Minutes) 
+### Continuing setup (45 Minutes) 
 
-1.  Python's collections module
-
-    a.  Named Tuples
-
-    b.  Deque
-
-    c.  DefaultDictionary
-
-    d.  ChainMap object
-
-    e.  Counter objects
-
-    f.  UserDict
-
-    g.  Users lists
-
-    h.  Users String
-
-2.  CSV
-
-3.  Numpy
-
-4.  Pandas
-
-5.  Mater
-
-### 15 minutes questions and break
-
-### Commandline, Repl and VSCode with Access technology (45 minutes)
-
-1.  Which commandline and why.
-
-2.  Using the Python REPL (Read, Evaluate, Print, Loop)
+1.  Using the Python REPL (Read, Evaluate, Print, Loop)
 
     a.  Inspecting data types
 
     b.  Understanding Error messages.
 
-3.  Visual Studio Code
+2.  Excel
 
-    c.  Accessibility Options
-
-    d.  Interpreter Setup
-
-    e.  Inspecting data types
-
-    f.  Using Error list
+3.  Test setup.
 
 ### 15 minutes questions and break
+
+Python review (45 Minutes)
+
+1.  Basic Data types
+
+    a.  Integer
+
+    b.  Float
+
+    c.  Strings
+
+2.  Grouping data types
+
+    d.  Lists
+
+    e.  Dictionaries
+
+    f.  Sets
+
+    g.  Tuples
+
+3.  Modules
+
+    h.  NumPy
+
+    i.  Pandas
+
+### 15 minutes questions and End
 
 Day 2: Introduction to Pandas 
 ------------------------------
 
- Introduction(45 Minutes)
-------------------------
+###  Introduction(30 Minutes)
 
--   **Introduction to Pandas:** Explanation of what Pandas is and its
-    significance in data analysis.
+2.  Basic Excel Introduction
 
--   -   The Series object
+3.  Explanation of terminology of spreadsheet. Verses Pandas
 
--   Creating a series
+    g.  Tables
 
--   Manipulating series
+    h.  Regions
 
--   reviewing series
+    i.  Rows
 
-### Data Frames (45 minutes)
+    j.  Columns
 
--   What is a Data Frame
+    k.  Cells
 
--   Creating a Data frame
+### 10 Minutes Questions and break {#minutes-questions-and-break-1}
 
--   Using rows and columns
+### Introduction to Pandas (50 Minutes)
 
--   Doing basic math, Sum, mean, Standard Deviation, etc...
+1.  Introduction
 
--   Getting Information on a DataFrame.
+2.  Series
 
--   Chaining methods to answer quesitons about the data
+3.  Data Frames
 
-### Creating a small data set and working with it45 minutes)
+### 10 minutes questions and break {#minutes-questions-and-break-2}
 
--   Create a Data frame
+### Creating data with Pandas (45 minutes)
 
--   examine the data frame
+1.  Review of Excel sheet
 
--   Examine subsets of the data frame.
+2.  Steps to Reproduce with pandas.
 
--   Save data frame to a file
-
--   reload data frame
-
-### 15 minutes questions and break {#minutes-questions-and-break-1}
+Saving the data in different forms.
 
 Day 3: Data Manipulation with Pandas
 ------------------------------------
 
-### Loading, Cleaning and saving a simple dataset (45 minutes)
+### Loading Data and Exploring data in Pandas (45 minutes)
 
--   **Reading Data:** Explanation of how to import data into Pandas from
-    different file formats such as CSV, Excel, JSON, etc.
+1.  Reading Simple created XLS into Pandas
 
--   **Data Cleaning:** Techniques for handling missing data, duplicates,
-    and outliers in a dataset.
+2.  Exploring data
 
--   **Data Transformation:** Methods for applying functions, filtering,
-    and sorting data in Pandas.
+    a.  Head
 
--   **Hands-on Exercise:** Cleaning and transforming datasets using
-    Pandas. \#\#\# 15 minutes questions and break
+    b.  Tail
 
-### Loading, Cleaning and saving a Large dataset (45 minutes)
+    c.  Describe
 
--   **Reading Data:** Explanation of how to import data into Pandas from
-    different file formats such as CSV, Excel, JSON, etc.
+    d.  Info
 
--   **Data Cleaning:** Techniques for handling missing data, duplicates,
-    and outliers in a dataset.
+    e.  Shape.
 
--   Examining subsets of the data
+### 15 minutes questions
 
--   **Data Transformation:** Methods for applying functions, filtering,
-    and sorting data in Pandas.
+### Large dataset (45 minutes)
 
--   **Hands-on Exercise:** Cleaning and transforming datasets using
-    Pandas.
+1.  Getting data set Penguins.
 
-15 minutes questions and break {#minutes-questions-and-break-2}
-------------------------------
+2.  Exploring data set
 
-Day 4: Exploratory Data Analysis (EDA) and Beyond
--------------------------------------------------
+    a.  Head
 
--   **Introduction to EDA:** Explanation of the importance of
-    exploratory data analysis in understanding and summarizing datasets.
+    b.  Tail
 
--   **Descriptive Statistics:** Techniques for calculating summary
-    statistics such as mean, median, mode, standard deviation, etc.
+    c.  Info
 
--   **Data Visualization:** Overview of data visualization techniques
-    using Pandas and Matplotlib for visual exploration of datasets.
+    d.  Describe
 
--   **Hands-on Exercise:** Performing EDA on real-world datasets, like
-    the Penguins calculating descriptive statistics, and creating
-    visualizations.
+    e.  Info shape.
 
--   **Mater** - using mater
+### 15 minutes questions and break {#minutes-questions-and-break-3}
 
-Week 2: Advanced Data Analysis with Pandas and Project Work
-===========================================================
+More data manipulations (45 minutes)
 
-Day 1: Advanced Data Analysis
------------------------------
+1.  Group by
 
--   **Grouping and Aggregation:** Grouping data and applying aggregate
-    functions.
+2.  Sorting
 
--   **Merging and Joining DataFrames:** Combining datasets using
-    different techniques.
+Day 4: Data Manipulation with Pandas
+------------------------------------
 
--   **Pivot Tables:** Creating pivot tables for multidimensional
-    analysis.
+### Larger Dataset (45 minutes)
 
--   **Hands-on Exercise:** Analyzing datasets with advanced Pandas
-    operations.
+1.  Getting GapMinder.
 
-Day 2: Project Kickoff and Data Wrangling
------------------------------------------
+2.  Exploring
 
--   **Real-world Case Study:** Introduction to the project dataset and
-    objectives.
+3.  Group by
 
--   **Project Kickoff:** Discussion of project requirements and
-    guidelines.
+4.  sort
 
--   **Data Wrangling Techniques:** Handling categorical data, encoding,
-    and feature engineering.
+5.  Filter query
 
--   **Hands-on Exercise:** Initial data exploration and preparation for
-    the project.
+6.  Join
 
-Day 3: Project Work and Analysis
+7.  Merge
+
+8.  9.  Data transformation
+
+10. Mutation
+
+Week 2 Visualization of Data 
+=============================
+
+Day 1: Bar Plots and Histograms
+-------------------------------
+
+### Introduction to Bar Plots (35 minutes)
+
+1.  Definitions and components.
+
+    a.  Bars
+
+    b.  X-axis
+
+    c.  Y-axis
+
+    d.  Labels
+
+    e.  Title
+
+2.  Use cases for bar charts.
+
+3.  Creating bar charts with Pandas
+
+4.  CBorn
+
+5.  Maider
+
+### Questions (10 minutes)
+
+### Practical Exercise on Bar Plots (35 minutes)
+
+1.  Hands on Exercise
+
+    a.  Participants create and customize bar plots using provided
+        datasets.
+
+    b.  Instructor-guided exploration of bar plot options.
+
+    c.  Accessible visualizations
+
+### Questions (10 minutes)
+
+### Introduction to Histograms (35 minutes)
+
+1.  Definitions and components.
+
+    a.  Bins
+
+    b.  Bars
+
+    c.  X-axis
+
+    d.  Y-axis
+
+    e.  Frequency
+
+2.  Use case for Histograms.
+
+3.  Cborn
+
+4.  Maider
+
+### Questions (10 minutes)
+
+### Practical Exercise on Histograms (35 minutes)
+
+1.  Hands on Exercise
+
+    a.  Participants create and customize Histograms using provided
+        datasets.
+
+    b.  Instructor-guided exploration of Histograms options.
+
+    c.  Accessible visualizations
+
+### Questions and suggested practice for next day (10 minutes)
+
+Day 2: Line Plots and Scatter Plots
+-----------------------------------
+
+### Introduction to Line Plots (35 minutes)
+
+1.  Definitions and Components:
+
+    a.  Lines
+
+    b.  x-axis
+
+    c.  y-axis
+
+    d.  Markers
+
+    e.  title.
+
+2.  Use cases for line plots.
+
+3.  Creating Line Plots with Pandas and maider
+
+### Questions (10 minutes)
+
+### Practical Exercise online Plots (35 minutes)
+
+1.  Hands on Exercise
+
+    a.  Participants create and customize Line plots using provided
+        datasets.
+
+    b.  Instructor-guided exploration of Line plot options.
+
+    c.  Accessible visualizations
+
+### Questions (10 minutes)
+
+### 2Introduction to Scatter Plots (35 minutes)
+
+Definitions and Components:
+
+Scatter plot components: points, x-axis, y-axis, labels, title.
+
+Use cases for scatter plots.
+
+Creating Scatter Plots with Pandas and Matplotlib:
+
+Basic creation of scatter plots.
+
+Customizing scatter plots (point size, color).
+
+### Questions (10 minutes)
+
+### Practical Exercise on Scatter Plots (35 minutes)
+
+1.  Hands-on Exercise:
+
+    a.  Participants create and customize scatter plots using provided
+        datasets.
+
+    b.  Instructor-guided exploration of scatter plot options.
+
+### Questions (10 minutes)
+
+Day 3: Advanced Visualization Techniques
+----------------------------------------
+
+### Anscombe's Quartet (45 minutes)
+
+1.  Definitions and Significance:
+
+    a.  Understanding Anscombe's Quartet.
+
+    b.  Importance in illustrating the importance of data visualization.
+
+2.  Plotting Anscombe's Quartet.
+
+### Questions (10 minutes)
+
+### Introduction to Box Plots (35 minutes)
+
+Definitions and Components:
+
+Box plot components: boxes, whiskers, outliers, x-axis, y-axis.
+
+Use cases for box plots.
+
+Creating Box Plots with Matplotlib:
+
+Basic creation of box plots.
+
+Customizing box plots (orientation, colors).
+
+### Questions (10 minutes)
+
+### Practical Exercise on Box Plots (35 minutes)
+
+Hands-on Exercise:
+
+Participants create and customize box plots using provided datasets.
+
+Instructor-guided exploration of box plot options.
+
+### Questions (10 minutes)
+
+Day 4: Final Project and Wrap-Up
 --------------------------------
 
--   **Continued work on the project** with guidance and support.
+###  Final Project Setup (20 minutes)
 
--   **Data Analysis:** Applying Pandas techniques to extract insights
-    from the dataset.
+Project Introduction:
 
--   **Hands-on Exercise:** Analyzing data and refining project findings.
+Explanation of the final project requirements.
 
-Day 4: Project Presentation and Conclusion
-------------------------------------------
+Choosing datasets for the project.
 
--   **Final Project Presentations:** Participants present their project
-    findings to the class.
+Planning and Initial Steps:
 
--   **Q&A Session:** Questions and discussions about the projects.
+Outline the steps to create the visualizations.
 
--   **Course Conclusion:** Review of key concepts and takeaways from the
-    course.
+Initial data exploration and cleaning.
 
--   **Course Evaluation and Feedback:** Gathering feedback from
-    participants.
+### Questions (10 minutes)
 
--   **Conclusion and Next Steps:** Guidance on further learning
-    resources and next steps in data analysis journey.
+### Project Work (60 minutes)
+
+Hands-on Project Development:
+
+Participants work on their projects, creating various visualizations.
+
+Instructor provides guidance and support.
+
+### Project Presentations (60 minutes)
+
+Project Presentations:
+
+Participants present their visualizations and findings.
+
+### Peer feedback, discussion, and wrap up. (30 minutes)
