@@ -2,15 +2,18 @@
 
 ## Running the tests
 
-We use [pytest][pytest: Getting Started Guide] as our website test runner.
-You will need to install `pytest` on your development machine if you want to run tests for the Python track locally.
+You will need to install `pytest` to test your solutions.
+
 You should also install the following `pytest` plugins:
 
 - [pytest-cache][pytest-cache]
 - [pytest-subtests][pytest-subtests]
 
-Extended information can be found in our website [Python testing guide][Python track tests page].
+example:
 
+pip install pytest
+pip install pytest-cache
+pip install pytest-subtests
 
 ### Running Tests
 
@@ -95,36 +98,7 @@ Some community-sourced options can be found on our [Python track tools page][Pyt
 
 ## Submitting your solution
 
-You can submit your solution using the `exercism submit loops.py` command.
-This command will upload your solution to the Exercism website and print the solution page's URL.
+Rename your .py file to a .txt extention and email it to kperry@blinksoft.com. for example:
 
-It's possible to submit an incomplete solution which allows you to:
+your_code.py.txt
 
-- See how others have completed the exercise
-- Request help from a mentor
-
-## Need to get help?
-
-If you'd like help solving the exercise, check the following pages:
-
-- The [Python track's documentation](https://exercism.org/docs/tracks/python)
-- The [Python track's programming category on the forum](https://forum.exercism.org/c/programming/python)
-- [Exercism's programming category on the forum](https://forum.exercism.org/c/programming/5)
-- The [Frequently Asked Questions](https://exercism.org/docs/using/faqs)
-
-Should those resources not suffice, you could submit your (incomplete) solution to request mentoring.
-
-Below are some resources for getting help if you run into trouble:
-
-- [The PSF](https://www.python.org) hosts Python downloads, documentation, and community resources.
-- [The Exercism Community on Discord](https://exercism.org/r/discord)
-- [Python Community on Discord](https://pythondiscord.com/) is a very helpful and active community.
-- [/r/learnpython/](https://www.reddit.com/r/learnpython/) is a subreddit designed for Python learners.
-- [#python on Libera.chat](https://www.python.org/community/irc/) this is where the core developers for the language hang out and get work done.
-- [Python Community Forums](https://discuss.python.org/)
-- [Free Code Camp Community Forums](https://forum.freecodecamp.org/)
-- [CodeNewbie Community Help Tag](https://community.codenewbie.org/t/help)
-- [Pythontutor](http://pythontutor.com/) for stepping through small code snippets visually.
-
-Additionally, [StackOverflow](http://stackoverflow.com/questions/tagged/python) is a good spot to search for your problem/question to see if it has been answered already.
- If not - you can always [ask](https://stackoverflow.com/help/how-to-ask) or [answer](https://stackoverflow.com/help/how-to-answer) someone else's question.
