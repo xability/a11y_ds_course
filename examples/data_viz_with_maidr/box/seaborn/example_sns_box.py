@@ -10,7 +10,7 @@ iris = sns.load_dataset("iris")
 plt.figure()
 
 # Create box plot
-box_plot = sns.boxplot(x="species", y="petal_length", data=iris)
+box_plot = sns.boxplot(y="species", x="petal_length", data=iris)
 
 # Adding labels and title
 plt.title("Box Plot of Petal Length by Iris Species")
