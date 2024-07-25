@@ -1,10 +1,8 @@
-Week 1: Python Review and Introduction to Pandas
-================================================
+# \# Week 1: Python Review and Introduction to Pandas
 
-Day 1: Python Basics Review
----------------------------
+## \## Day 1: Python Basics Review
 
-### Setup 45 Minutes
+### Session 1: Setup
 
 1.  Visual Studio Code
 
@@ -20,25 +18,17 @@ Day 1: Python Basics Review
 
     f.  Terminals
 
-### 15 minutes questions and break
+-   Powershell
 
-### Continuing setup (45 Minutes) 
+-   CMD
+
+-   WSL, Linux, or Mac
+
+### Session 2: Python Continuing setup
 
 1.  Using the Python REPL (Read, Evaluate, Print, Loop)
 
-    a.  Inspecting data types
-
-    b.  Understanding Error messages.
-
-2.  Excel
-
-3.  Test setup.
-
-### 15 minutes questions and break
-
-Python review (45 Minutes)
-
-1.  Basic Data types
+2.  Basic Data types
 
     a.  Integer
 
@@ -46,71 +36,81 @@ Python review (45 Minutes)
 
     c.  Strings
 
-2.  Grouping data types
+3.  Inspecting data types
 
-    d.  Lists
+    a.  Type function
 
-    e.  Dictionaries
+    b.  id function
 
-    f.  Sets
+    c.  isinstance function
 
-    g.  Tuples
+    d.  Dir function
 
-3.  Modules
+    e.  helpful dir filter
 
-    h.  NumPy
+    f.  help function
 
-    i.  Pandas
+### Session 3: Python review
 
-### 15 minutes questions and End
+1.  Grouping data types
 
-Day 2: Introduction to Pandas 
-------------------------------
+    a.  Lists
 
-###  Introduction(30 Minutes)
+    b.  Dictionaries
 
-2.  Basic Excel Introduction
+    c.  Sets
 
-3.  Explanation of terminology of spreadsheet. Verses Pandas
+    d.  Tuples
 
-    g.  Tables
+2.  Modules
 
-    h.  Regions
+    a.  NumPy
 
-    i.  Rows
+    b.  Pandas
 
-    j.  Columns
+3.  Numpy Review or Introduction
 
-    k.  Cells
+## Day 2: From Spread sheet to Pandas
 
-### 10 Minutes Questions and break {#minutes-questions-and-break-1}
+### Session 1: Excel and Pandas terminology
 
-### Introduction to Pandas (50 Minutes)
+1.  Introduction to days topics
 
-1.  Introduction
+2.  Excel verses Pandas Terminology and example.
 
-2.  Series
+    a.  Series (rows and columns)
 
-3.  Data Frames
+        b.  Indexes
 
-### 10 minutes questions and break {#minutes-questions-and-break-2}
+            c.  DataFrames (Work sheets)
 
-### Creating data with Pandas (45 minutes)
+            d.  macros / functions
+
+### Session 2: Introduction to Pandas
+
+1.  Panda data types
+
+2.  Series from series_notes.md
+
+3.  Data Frames from DataFrames_notes.md
+
+### Session 3: Putting it all together
 
 1.  Review of Excel sheet
 
 2.  Steps to Reproduce with pandas.
 
-Saving the data in different forms.
+3.  Saving the data in different forms.
 
-Day 3: Data Manipulation with Pandas
-------------------------------------
+4.  Check output in Excel.
 
-### Loading Data and Exploring data in Pandas (45 minutes)
+## \## Day 3: Data Manipulation with Pandas
+
+### Session 1: Loading Data and Exploring data in Pandas
 
 1.  Reading Simple created XLS into Pandas
 
-2.  Exploring data
+2.  Getting started with Exploratory Data Analyses
 
     a.  Head
 
@@ -122,64 +122,67 @@ Day 3: Data Manipulation with Pandas
 
     e.  Shape.
 
-### 15 minutes questions
+    f.  index
 
-### Large dataset (45 minutes)
+    g.  columns
+
+    h.  data (numpy array)
+
+### Session 2: Large dataset EDA
 
 1.  Getting data set Penguins.
 
 2.  Exploring data set
 
-    a.  Head
+    3.  clean up data functions
 
-    b.  Tail
+        a.  drop
 
-    c.  Info
+        b.  filter
 
-    d.  Describe
-
-    e.  Info shape.
-
-### 15 minutes questions and break {#minutes-questions-and-break-3}
-
-More data manipulations (45 minutes)
+### Manipulating data
 
 1.  Group by
 
 2.  Sorting
 
-Day 4: Data Manipulation with Pandas
-------------------------------------
+3.  creating new columns
 
-### Larger Dataset (45 minutes)
+4.  Making catagorical out of continuous
+
+## \## Day 4: Data Manipulation with Pandas
+
+### Another large data set
 
 1.  Getting GapMinder.
 
 2.  Exploring
 
-3.  Group by
+3.  cleanup
 
-4.  sort
+4.  Group by
 
-5.  Filter query
+5.  sort
 
-6.  Join
+6.  Filter query
 
-7.  Merge
+7.  Join
 
-8.  9.  Data transformation
+8.  Merge
 
-10. Mutation
+9.  9.  Data transformation
 
-Week 2 Visualization of Data 
-=============================
+10. Mutation equivalent to R.
 
-Day 1: Bar Plots and Histograms
--------------------------------
+## session 2: Free for all
 
-### Introduction to Bar Plots (35 minutes)
+# Week 2 Visualization of Data
 
-1.  Definitions and components.
+## Day 1: Bar Plots and Histograms
+
+### Session 1: Introduction to Bar Plots
+
+1.  Definitions, description, and components. using mailed plots
 
     a.  Bars
 
@@ -193,30 +196,24 @@ Day 1: Bar Plots and Histograms
 
 2.  Use cases for bar charts.
 
-3.  Creating bar charts with Pandas
+3.  Creating bar charts with Pandas using Titanic data set.
 
-4.  CBorn
+4.  Loading the Dataset
 
-5.  Maider
+5.  Explore and choose the data
 
-### Questions (10 minutes)
+6.  Prepare the data by ensuring the 'Survived' column is categorical
+    with meaningful labels.
 
-### Practical Exercise on Bar Plots (35 minutes)
+### Practical Exercise bar Plots
 
 1.  Hands on Exercise
 
-    a.  Participants create and customize bar plots using provided
-        datasets.
-
-    b.  Instructor-guided exploration of bar plot options.
-
-    c.  Accessible visualizations
-
-### Questions (10 minutes)
+    a.  Participants create and customize bar plots using provided data.
 
 ### Introduction to Histograms (35 minutes)
 
-1.  Definitions and components.
+1.  Definitions, description and components.
 
     a.  Bins
 
@@ -230,29 +227,16 @@ Day 1: Bar Plots and Histograms
 
 2.  Use case for Histograms.
 
-3.  Cborn
-
-4.  Maider
-
-### Questions (10 minutes)
-
-### Practical Exercise on Histograms (35 minutes)
+### Practical Exercise histogram
 
 1.  Hands on Exercise
 
-    a.  Participants create and customize Histograms using provided
-        datasets.
+    a.  Participants create and customize histograms using provided
+        data.
 
-    b.  Instructor-guided exploration of Histograms options.
+## \## Day 2: Line Plots and Scatter Plots
 
-    c.  Accessible visualizations
-
-### Questions and suggested practice for next day (10 minutes)
-
-Day 2: Line Plots and Scatter Plots
------------------------------------
-
-### Introduction to Line Plots (35 minutes)
+### Introduction to Line Plots
 
 1.  Definitions and Components:
 
@@ -270,52 +254,37 @@ Day 2: Line Plots and Scatter Plots
 
 3.  Creating Line Plots with Pandas and maider
 
-### Questions (10 minutes)
-
-### Practical Exercise online Plots (35 minutes)
+### Practical Exercise online Plots using weather
 
 1.  Hands on Exercise
 
     a.  Participants create and customize Line plots using provided
-        datasets.
+        weather data
 
-    b.  Instructor-guided exploration of Line plot options.
+### 2Introduction to Scatter Plots
 
-    c.  Accessible visualizations
+1.  Definitions, description, and Components
 
-### Questions (10 minutes)
+    a.  points
 
-### 2Introduction to Scatter Plots (35 minutes)
+        b.  axis's
 
-Definitions and Components:
+            c.  labels
 
-Scatter plot components: points, x-axis, y-axis, labels, title.
+                d.  title
 
-Use cases for scatter plots.
-
-Creating Scatter Plots with Pandas and Matplotlib:
-
-Basic creation of scatter plots.
-
-Customizing scatter plots (point size, color).
-
-### Questions (10 minutes)
+2.  Use cases for scatter plots.
 
 ### Practical Exercise on Scatter Plots (35 minutes)
 
 1.  Hands-on Exercise:
 
     a.  Participants create and customize scatter plots using provided
-        datasets.
+        audible data.
 
-    b.  Instructor-guided exploration of scatter plot options.
+## Day 3: Advanced Visualization Techniques
 
-### Questions (10 minutes)
-
-Day 3: Advanced Visualization Techniques
-----------------------------------------
-
-### Anscombe's Quartet (45 minutes)
+### Session 1: Anscombe's Quartet
 
 1.  Definitions and Significance:
 
@@ -325,65 +294,58 @@ Day 3: Advanced Visualization Techniques
 
 2.  Plotting Anscombe's Quartet.
 
-### Questions (10 minutes)
+### Introduction to Box Plots
 
-### Introduction to Box Plots (35 minutes)
+1.  Definitions, description, and Components:
 
-Definitions and Components:
+    a.  boxes
 
-Box plot components: boxes, whiskers, outliers, x-axis, y-axis.
+    b.  
 
-Use cases for box plots.
+    c.  whiskers
 
-Creating Box Plots with Matplotlib:
+    d.  outliers
 
-Basic creation of box plots.
+    e.  x-axis and y-axis
 
-Customizing box plots (orientation, colors).
+2.  Use cases for box plots.
 
-### Questions (10 minutes)
+### Practical Exercise on Box Plots
 
-### Practical Exercise on Box Plots (35 minutes)
+1.  Hands-on Exercise:
 
-Hands-on Exercise:
+    a.  Participants create and customize box plots using provided
+        datasets.
 
-Participants create and customize box plots using provided datasets.
+## \## Day 4: Final Project and Wrap-Up
 
-Instructor-guided exploration of box plot options.
+### Final Project Setup
 
-### Questions (10 minutes)
+1.  Project Introduction:
 
-Day 4: Final Project and Wrap-Up
---------------------------------
+2.  Explanation of the final project requirements.
 
-###  Final Project Setup (20 minutes)
+3.  Choosing datasets for the project.
 
-Project Introduction:
+4.  Planning and Initial Steps
 
-Explanation of the final project requirements.
+    a.  Outline the steps to create the visualizations.
 
-Choosing datasets for the project.
-
-Planning and Initial Steps:
-
-Outline the steps to create the visualizations.
-
-Initial data exploration and cleaning.
-
-### Questions (10 minutes)
+    b.  Initial data exploration and cleaning.
 
 ### Project Work (60 minutes)
 
-Hands-on Project Development:
+-   Hands-on Project Development:
 
-Participants work on their projects, creating various visualizations.
+-   Participants work on their projects, creating various
+    visualizations.
 
-Instructor provides guidance and support.
+-   Instructor provides guidance and support.
 
 ### Project Presentations (60 minutes)
 
-Project Presentations:
+-   Project Presentations:
 
-Participants present their visualizations and findings.
+-   Participants present their visualizations and findings.
 
 ### Peer feedback, discussion, and wrap up. (30 minutes)

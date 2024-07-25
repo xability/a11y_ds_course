@@ -1,4 +1,66 @@
+
 # pandas Series Class Attributes and Methods Notes
+
+## Creating Series
+
+### From List
+
+#### Description:
+
+Create a Series from a list.
+
+#### Example:
+
+>
+> import pandas as pd
+>
+> # Creating Series from a list
+> s_list = pd.Series([1, 2, 3, 4, 5])
+>
+> print(s_list)
+
+### From List with Index
+
+#### Description:
+
+Create a Series from a list and specify the index at creation.
+
+#### Example:
+
+>
+> # Creating Series from a list with index
+> s_list_index = pd.Series([10, 20, 30], index=['x', 'y', 'z'])
+>
+> print(s_list_index)
+
+### From List with Name
+
+#### Description:
+
+Create a Series from a list and assign a name to the Series.
+
+#### Example:
+
+>
+> # Creating Series from a list with name
+> s_list_named = pd.Series([10, 20, 30], name='MySeries')
+>
+> print(s_list_named)
+
+### From Dictionary
+
+#### Description:
+
+Create a Series from a dictionary where the keys become the index.
+
+#### Example:
+
+>
+> # Creating Series from a dictionary
+> s_dict = pd.Series({'a': 1, 'b': 2, 'c': 3})
+>
+> print(s_dict)
+
 ## Attributes
 
 ### index
@@ -9,31 +71,25 @@ The index (axis labels) of the Series.
 
 #### Example:
 
-
 >
->
-> import pandas as pd
->
-> s = pd.Series(\[1, 2, 3\], index=\[\'a\', \'b\', \'c\'\])
+> s = pd.Series([1, 2, 3], index=['a', 'b', 'c'])
 >
 > print(s.index)
 
-###  values
+### values
 
 #### Description: 
 
-Return Series as ndarray or ndarray-like
-        depending on the dtype.
+Return Series as ndarray or ndarray-like depending on the dtype.
 
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\])
+> s = pd.Series([1, 2, 3])
 >
 > print(s.values)
 
-###   dtype
+### dtype
 
 #### Description: 
 
@@ -42,12 +98,11 @@ Data type of the Series.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\])
+> s = pd.Series([1, 2, 3])
 >
 > print(s.dtype)
 
-###  name
+### name
 
 #### Description: 
 
@@ -56,27 +111,24 @@ The name of the Series.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\], name=\'numbers\')
+> s = pd.Series([1, 2, 3], name='numbers')
 >
 > print(s.name)
 
-###  shape
+### shape
 
 #### Description: 
 
-Return a tuple of the shape of the underlying
-        data.
+Return a tuple of the shape of the underlying data.
 
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\])
+> s = pd.Series([1, 2, 3])
 >
 > print(s.shape)
 
-###  size
+### size
 
 #### Description: 
 
@@ -85,12 +137,11 @@ Return the number of elements in the Series.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\])
+> s = pd.Series([1, 2, 3])
 >
 > print(s.size)
 
-###  empty
+### empty
 
 #### Description: 
 
@@ -99,38 +150,33 @@ Indicator whether Series is empty.
 #### Example:
 
 >
->
-> s = pd.Series(\[\])
+> s = pd.Series([])
 >
 > print(s.empty)
 
-###  nbytes
+### nbytes
 
 #### Description: 
 
-Return the number of bytes in the underlying
-        data.
+Return the number of bytes in the underlying data.
 
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\])
+> s = pd.Series([1, 2, 3])
 >
 > print(s.nbytes)
 
-###  ndim
+### ndim
 
 #### Description: 
 
-Return the number of dimensions of the
-        underlying data, which is 1 for Series.
+Return the number of dimensions of the underlying data, which is 1 for Series.
 
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\])
+> s = pd.Series([1, 2, 3])
 >
 > print(s.ndim)
 
@@ -143,14 +189,13 @@ Return if Series has any NaNs.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, None\])
+> s = pd.Series([1, 2, None])
 >
 > print(s.hasnans)
 
 ## Methods
 
-###  head(n=5)
+### head(n=5)
 
 #### Description: 
 
@@ -159,8 +204,7 @@ Return the first n elements of the Series.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3, 4, 5, 6\])
+> s = pd.Series([1, 2, 3, 4, 5, 6])
 >
 > print(s.head(3))
 
@@ -173,8 +217,7 @@ Return the last n elements of the Series.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3, 4, 5, 6\])
+> s = pd.Series([1, 2, 3, 4, 5, 6])
 >
 > print(s.tail(3))
 
@@ -187,8 +230,7 @@ Generate descriptive statistics.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3, 4, 5\])
+> s = pd.Series([1, 2, 3, 4, 5])
 >
 > print(s.describe())
 
@@ -201,8 +243,7 @@ Return the sum of the Series.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\])
+> s = pd.Series([1, 2, 3])
 >
 > print(s.sum())
 
@@ -215,8 +256,7 @@ Return the mean of the Series.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\])
+> s = pd.Series([1, 2, 3])
 >
 > print(s.mean())
 
@@ -229,8 +269,7 @@ Return the median of the Series.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 3, 2\])
+> s = pd.Series([1, 3, 2])
 >
 > print(s.median())
 
@@ -243,8 +282,7 @@ Return the standard deviation of the Series.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\])
+> s = pd.Series([1, 2, 3])
 >
 > print(s.std())
 
@@ -257,12 +295,11 @@ Return the minimum value in the Series.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\])
+> s = pd.Series([1, 2, 3])
 >
 > print(s.min())
 
-###max()
+### max()
 
 #### Description: 
 
@@ -271,23 +308,20 @@ Return the maximum value in the Series.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\])
+> s = pd.Series([1, 2, 3])
 >
 > print(s.max())
 
-1### count()
+### count()
 
 #### Description: 
 
-Return the number of non-NA/null observations
-        in the Series.
+Return the number of non-NA/null observations in the Series.
 
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, None\])
+> s = pd.Series([1, 2, None])
 >
 > print(s.count())
 
@@ -300,8 +334,7 @@ Return unique values of Series object.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 2, 3\])
+> s = pd.Series([1, 2, 2, 3])
 >
 > print(s.unique())
 
@@ -314,27 +347,24 @@ Return number of unique elements in the Series.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 2, 3\])
+> s = pd.Series([1, 2, 2, 3])
 >
 > print(s.nunique())
 
-### value\_counts()
+### value_counts()
 
 #### Description: 
 
-Return a Series containing counts of unique
-        values.
+Return a Series containing counts of unique values.
 
 #### Example:
 
 >
+> s = pd.Series([1, 2, 2, 3])
 >
-> s = pd.Series(\[1, 2, 2, 3\])
->
-> print(s.value\_counts())
+> print(s.value_counts())
 
-### sort\_values()
+### sort_values()
 
 #### Description: 
 
@@ -343,12 +373,11 @@ Sort by the values along either axis.
 #### Example:
 
 >
+> s = pd.Series([3, 1, 2])
 >
-> s = pd.Series(\[3, 1, 2\])
->
-> print(s.sort\_values())
+> print(s.sort_values())
 
-### sort\_index()
+### sort_index()
 
 #### Description: 
 
@@ -357,10 +386,9 @@ Sort Series by its index.
 #### Example:
 
 >
+> s = pd.Series([3, 1, 2], index=['c', 'a', 'b'])
 >
-> s = pd.Series(\[3, 1, 2\], index=\[\'c\', \'a\', \'b\'\])
->
-> print(s.sort\_index())
+> print(s.sort_index())
 
 ### apply(func)
 
@@ -371,38 +399,33 @@ Invoke function on values of Series.
 #### Example:
 
 >
+> s = pd.Series([1, 2, 3])
 >
-> s = pd.Series(\[1, 2, 3\])
->
-> print(s.apply(lambda x: x\*\*2))
+> print(s.apply(lambda x: x**2))
 
 ### map(arg)
 
 #### Description: 
 
-Map values of Series using input
-        correspondence.
+Map values of Series using input correspondence.
 
 #### Example:
 
 >
+> s = pd.Series([1, 2, 3])
 >
-> s = pd.Series(\[1, 2, 3\])
->
-> print(s.map({1: \'one\', 2: \'two\', 3: \'three\'}))
+> print(s.map({1: 'one', 2: 'two', 3: 'three'}))
 
 ### astype(dtype)
 
 #### Description: 
 
-Cast a pandas object to a specified dtype
-        dtype.
+Cast a pandas object to a specified dtype dtype.
 
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, 3\])
+> s = pd.Series([1, 2, 3])
 >
 > print(s.astype(float))
 
@@ -415,8 +438,7 @@ Detect missing values.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, None\])
+> s = pd.Series([1, 2, None])
 >
 > print(s.isna())
 
@@ -429,8 +451,7 @@ Return Series without null values.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, None\])
+> s = pd.Series([1, 2, None])
 >
 > print(s.dropna())
 
@@ -443,8 +464,7 @@ Fill NA/NaN values using the specified method.
 #### Example:
 
 >
->
-> s = pd.Series(\[1, 2, None\])
+> s = pd.Series([1, 2, None])
 >
 > print(s.fillna(0))
 
@@ -452,17 +472,16 @@ Fill NA/NaN values using the specified method.
 
 #### Description: 
 
-Make a copy of this object\'s indices and data.
+Make a copy of this object's indices and data.
 
 #### Example:
 
 >
+> s = pd.Series([1, 2, 3])
 >
-> s = pd.Series(\[1, 2, 3\])
+> s_copy = s.copy()
 >
-> s\_copy = s.copy()
->
-> print(s\_copy)
+> print(s_copy)
 
 ### rename(name)
 
@@ -473,14 +492,13 @@ Alter Series name.
 #### Example:
 
 >
+> s = pd.Series([1, 2, 3])
 >
-> s = pd.Series(\[1, 2, 3\])
+> s_renamed = s.rename("new_name")
 >
-> s\_renamed = s.rename(\"new\_name\")
->
-> print(s\_renamed)
+> print(s_renamed)
 
-### to\_list()
+### to_list()
 
 #### Description: 
 
@@ -489,21 +507,19 @@ Return a list of the values.
 #### Example:
 
 >
+> s = pd.Series([1, 2, 3])
 >
-> s = pd.Series(\[1, 2, 3\])
->
-> print(s.to\_list())
+> print(s.to_list())
 
-### to\_dict()
+### to_dict()
 
 #### Description: 
 
-Convert Series to {label -\> value} dict.
+Convert Series to {label -> value} dict.
 
 #### Example:
 
 >
+> s = pd.Series([1, 2, 3], index=['a', 'b', 'c'])
 >
-> s = pd.Series(\[1, 2, 3\], index=\[\'a\', \'b\', \'c\'\])
->
-> print(s.to\_dict())
+> print(s.to_dict())
