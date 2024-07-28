@@ -77,7 +77,7 @@
 
 ### Day 2: From Spread sheet to Pandas
 
-### Session 1: Excel and Pandas terminology
+#### Session 1: Excel and Pandas terminology
 
 1.  Introduction
 
@@ -91,7 +91,7 @@
 
             d.  macros / functions
 
-### Session 2: Introduction to Pandas
+#### Session 2: Introduction to Pandas
 
 1.  Panda data types
 
@@ -161,7 +161,7 @@
 
 ###  Day 4: Data Manipulation with Pandas
 
-#### Advanced EDA
+#### Session 1: Advanced EDA
 
 1.  Getting GapMinder.
 
@@ -175,13 +175,13 @@
 
 6. Mutation
 
-### session 2: Class EDA  of different Data sets.
+#### session 2: Class EDA  of different Data sets.
 
 ## Week 2 Visualization of Data
 
 ### Day 1: Bar Plots and Histograms
 
-#### Session 1: Introduction to Bar Plots
+#### Session 1: Bar Plots
 
 1.  Definitions, description, and components. 
 
@@ -212,7 +212,7 @@
 
     a.  Participants create and review bar plots with Seaborn and an Accessible library
 
-#### Session 2: Introduction to Histograms (35 minutes)
+#### Session 2: Histograms 
 
 1.  Definitions, description and components.
 
@@ -288,7 +288,7 @@
 4. Create  Scatter plot
 
 
-##### Practical Exercise on Scatter Plots (35 minutes)
+##### Practical Exercise on Scatter Plots 
 
 1.  Hands-on Exercise:
 
@@ -338,7 +338,7 @@
 
 1.  Definitions, description, and Components:
 
-    Data matrix
+    a. Data matrix
 
     b. Axis both X and Y.  
     
