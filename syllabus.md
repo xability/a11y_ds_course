@@ -1,10 +1,20 @@
-# \# Week 1: Python Review and Introduction to Pandas
+# Empowering Data Vision: Data Science Course 
 
-## \## Day 1: Python Basics Review
+## Week 1: From Python to Exploring Data with Pandas.
 
-### Session 1: Setup
+### Day 1: Course Methodology, Tools, Setup, and Review.
 
-1.  Visual Studio Code
+#### Session 1:  Development Environment
+
+1.  Operating Systems
+
+2.  Terminal 
+
+3. Python version 
+
+4. PIP or Anaconda
+
+5.  Visual Studio Code
 
     a.  Accessibility options
 
@@ -16,15 +26,9 @@
 
     e.  Extensions
 
-    f.  Terminals
-
--   Powershell
-
--   CMD
-
--   WSL, Linux, or Mac
-
-### Session 2: Python Continuing setup
+    f.  Internal or external Terminals
+    
+#### Session 2: Python Setup and or review
 
 1.  Using the Python REPL (Read, Evaluate, Print, Loop)
 
@@ -50,9 +54,7 @@
 
     f.  help function
 
-### Session 3: Python review
-
-1.  Grouping data types
+4. Grouping data types
 
     a.  Lists
 
@@ -62,19 +64,22 @@
 
     d.  Tuples
 
-2.  Modules
+5.  Modules
 
     a.  NumPy
 
     b.  Pandas
+    
+        c. Readline
 
 3.  Numpy Review or Introduction
+4. Pandas Hello world 
 
-## Day 2: From Spread sheet to Pandas
+### Day 2: From Spread sheet to Pandas
 
 ### Session 1: Excel and Pandas terminology
 
-1.  Introduction to days topics
+1.  Introduction
 
 2.  Excel verses Pandas Terminology and example.
 
@@ -90,11 +95,11 @@
 
 1.  Panda data types
 
-2.  Series from series_notes.md
+2.  Series 
 
-3.  Data Frames from DataFrames_notes.md
+3.  Data Frames 
 
-### Session 3: Putting it all together
+#### Session 3: Putting it all together
 
 1.  Review of Excel sheet
 
@@ -104,13 +109,13 @@
 
 4.  Check output in Excel.
 
-## \## Day 3: Data Manipulation with Pandas
+### Day 3: Data Manipulation with Pandas
 
-### Session 1: Loading Data and Exploring data in Pandas
+#### Session 1: Loading Data and Exploring data in Pandas
 
 1.  Reading Simple created XLS into Pandas
 
-2.  Getting started with Exploratory Data Analyses
+2.  Getting started with Exploratory Data Analysis  (EDA)
 
     a.  Head
 
@@ -128,7 +133,7 @@
 
     h.  data (numpy array)
 
-### Session 2: Large dataset EDA
+#### Session 2: Large dataset EDA
 
 1.  Getting data set Penguins.
 
@@ -138,51 +143,47 @@
 
         a.  drop
 
-        b.  filter
+        b.  Rename 
 
-### Manipulating data
+    c. Type change 
+    
+        d. Filter
+    
+#### Manipulating data
 
-1.  Group by
+1.  Sorting
 
-2.  Sorting
+2.  filter
 
 3.  creating new columns
 
-4.  Making catagorical out of continuous
+4.  Group by
 
-## \## Day 4: Data Manipulation with Pandas
+###  Day 4: Data Manipulation with Pandas
 
-### Another large data set
+#### Advanced EDA
 
 1.  Getting GapMinder.
 
-2.  Exploring
+2.  Basic EDA and Cleanup.
 
-3.  cleanup
+3.  Join
 
-4.  Group by
+4.  Merge
 
-5.  sort
+5.  Data transformation
 
-6.  Filter query
+6. Mutation
 
-7.  Join
+### session 2: Class EDA  of different Data sets.
 
-8.  Merge
+## Week 2 Visualization of Data
 
-9.  9.  Data transformation
+### Day 1: Bar Plots and Histograms
 
-10. Mutation equivalent to R.
+#### Session 1: Introduction to Bar Plots
 
-## session 2: Free for all
-
-# Week 2 Visualization of Data
-
-## Day 1: Bar Plots and Histograms
-
-### Session 1: Introduction to Bar Plots
-
-1.  Definitions, description, and components. using mailed plots
+1.  Definitions, description, and components. 
 
     a.  Bars
 
@@ -194,24 +195,24 @@
 
     e.  Title
 
+
 2.  Use cases for bar charts.
 
-3.  Creating bar charts with Pandas using Titanic data set.
+3. Load data
 
-4.  Loading the Dataset
 
 5.  Explore and choose the data
 
-6.  Prepare the data by ensuring the 'Survived' column is categorical
-    with meaningful labels.
+6. Create a Bar plot
 
-### Practical Exercise bar Plots
+
+##### Practical Exercise bar Plots
 
 1.  Hands on Exercise
 
-    a.  Participants create and customize bar plots using provided data.
+    a.  Participants create and review bar plots with Seaborn and an Accessible library
 
-### Introduction to Histograms (35 minutes)
+#### Session 2: Introduction to Histograms (35 minutes)
 
 1.  Definitions, description and components.
 
@@ -227,16 +228,21 @@
 
 2.  Use case for Histograms.
 
-### Practical Exercise histogram
+3. Load data
+
+5.  Explore and choose the data
+
+6. Create a Histogram 
+
+##### Practical Exercise histogram
 
 1.  Hands on Exercise
 
-    a.  Participants create and customize histograms using provided
-        data.
+    a.  Participants create and explore Histograms with Seaborn and an Accessible library
 
-## \## Day 2: Line Plots and Scatter Plots
+###  Day 2: Line Plots and Scatter Plots
 
-### Introduction to Line Plots
+#### Session 1: Line Plots
 
 1.  Definitions and Components:
 
@@ -252,16 +258,18 @@
 
 2.  Use cases for line plots.
 
-3.  Creating Line Plots with Pandas and maider
+3. EDA and Setup of data.
+    
+4. Create  Line  plot
 
-### Practical Exercise online Plots using weather
+
+##### Practical Exercise
 
 1.  Hands on Exercise
 
-    a.  Participants create and customize Line plots using provided
-        weather data
+    a.  Participants create and explore Line plots with Seaborn and an Accessible library
 
-### 2Introduction to Scatter Plots
+#### Session 2: Scatter Plots
 
 1.  Definitions, description, and Components
 
@@ -275,16 +283,91 @@
 
 2.  Use cases for scatter plots.
 
-### Practical Exercise on Scatter Plots (35 minutes)
+3. EDA and Setup of data.
+    
+4. Create  Scatter plot
+
+
+##### Practical Exercise on Scatter Plots (35 minutes)
 
 1.  Hands-on Exercise:
 
-    a.  Participants create and customize scatter plots using provided
-        audible data.
+    a.  Participants create and explore scatter plots with Seaborn and an Accessible library
 
-## Day 3: Advanced Visualization Techniques
+### Day 3: Box plots and Heat Maps
 
-### Session 1: Anscombe's Quartet
+#### Session 1: Box Plots
+
+1.  Definitions, description, and Components:
+
+    a. Box:
+
+    b. Median Line
+
+    c. Whiskers
+
+    d. Outliers
+
+    e. Minimum
+
+    f. Maximum
+
+    g. Quartiles
+    
+    h. Range
+
+    i. Notches
+
+    j. Axes both X and Y
+
+    k. Title and Labels
+    
+2.  Use cases for box plots.
+
+3. EDA and Setup of data.
+
+4. Create  Box plot 
+
+##### Practical Exercise on Box Plots
+
+1.  Hands-on Exercise:
+
+    a.  Participants create and explore box plots with Seaborn and an Accessible library
+    
+#### Session 2: Heat Maps
+
+1.  Definitions, description, and Components:
+
+    Data matrix
+
+    b. Axis both X and Y.  
+    
+        c. Color Scale 
+
+    d.  Titles  and lables 
+
+    e.  Dendrograms 
+    
+    f.  Ticks and grid lines
+    
+        g. Figure background
+        
+
+2.  Use cases for Heat Maps
+
+3. EDA and Setup of data.
+
+4. Create  Heat map
+
+##### Practical Exercise for Heat Map
+
+1.  Hands-on Exercise:
+
+    a.  Participants create and explore Heat map with Seaborn and an Accessible library
+    
+### Day 4: Advanced Visualizations and other data sets
+
+#### Session 1: Anscombe's Quartet
 
 1.  Definitions and Significance:
 
@@ -294,58 +377,10 @@
 
 2.  Plotting Anscombe's Quartet.
 
-### Introduction to Box Plots
+#### Session 2: Using live data 
 
-1.  Definitions, description, and Components:
+1. EDA and selecting data
 
-    a.  boxes
+2.  Picking the right Plot
 
-    b.  
-
-    c.  whiskers
-
-    d.  outliers
-
-    e.  x-axis and y-axis
-
-2.  Use cases for box plots.
-
-### Practical Exercise on Box Plots
-
-1.  Hands-on Exercise:
-
-    a.  Participants create and customize box plots using provided
-        datasets.
-
-## \## Day 4: Final Project and Wrap-Up
-
-### Final Project Setup
-
-1.  Project Introduction:
-
-2.  Explanation of the final project requirements.
-
-3.  Choosing datasets for the project.
-
-4.  Planning and Initial Steps
-
-    a.  Outline the steps to create the visualizations.
-
-    b.  Initial data exploration and cleaning.
-
-### Project Work (60 minutes)
-
--   Hands-on Project Development:
-
--   Participants work on their projects, creating various
-    visualizations.
-
--   Instructor provides guidance and support.
-
-### Project Presentations (60 minutes)
-
--   Project Presentations:
-
--   Participants present their visualizations and findings.
-
-### Peer feedback, discussion, and wrap up. (30 minutes)
+####  Session 3:  Questions, Comments, and Wrapup
