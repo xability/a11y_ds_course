@@ -1,7 +1,7 @@
-Pandas Resources
+# Pandas Resources
 ================
 
-Web Resources
+## Web Resources
 -------------
 
 -   [Pandas' Official documentation and
@@ -10,7 +10,9 @@ Web Resources
 -   [Awesome Pandas a resource gathering
     site](https://github.com/tommyod/awesome-pandas)
 
-Books on Bookshare
+- [Applied Data Science with Python – Business Intelligence for Developers [Full Book](https://www.freecodecamp.org/news/applied-data-science-with-python-book/)
+
+## Books on Bookshare
 ------------------
 
 -   HandsOnDataAnalysisWithPanda.epub
