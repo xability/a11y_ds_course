@@ -72,7 +72,7 @@
 
 2.  Exploring data set
 
-    3.  clean up data functions
+3.  clean up data functions
     
 #### Manipulating data
 
@@ -110,7 +110,6 @@
 
 1.  Definitions, description, and components. 
 
-   
 2.  Use cases for bar charts.
 
 3. Load data

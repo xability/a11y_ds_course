@@ -70,7 +70,7 @@
 
     b.  Pandas
     
-        c. Readline
+    c. Readline
 
 3.  Numpy Review or Introduction
 4. Pandas Hello world 
@@ -85,11 +85,11 @@
 
     a.  Series (rows and columns)
 
-        b.  Indexes
+    b.  Indexes
 
-            c.  DataFrames (Work sheets)
+    c.  DataFrames (Work sheets)
 
-            d.  macros / functions
+    d.  macros / functions
 
 #### Session 2: Introduction to Pandas
 
@@ -139,15 +139,15 @@
 
 2.  Exploring data set
 
-    3.  clean up data functions
+3.  clean up data functions
 
-        a.  drop
+    a.  drop
 
-        b.  Rename 
+    b.  Rename 
 
     c. Type change 
     
-        d. Filter
+    d. Filter
     
 #### Manipulating data
 
@@ -275,11 +275,11 @@
 
     a.  points
 
-        b.  axis's
+    b.  axis's
 
-            c.  labels
+    c.  labels
 
-                d.  title
+    d.  title
 
 2.  Use cases for scatter plots.
 
@@ -342,7 +342,7 @@
 
     b. Axis both X and Y.  
     
-        c. Color Scale 
+    c. Color Scale 
 
     d.  Titles  and lables 
 
@@ -350,7 +350,7 @@
     
     f.  Ticks and grid lines
     
-        g. Figure background
+    g. Figure background
         
 
 2.  Use cases for Heat Maps
