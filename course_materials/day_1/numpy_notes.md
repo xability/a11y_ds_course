@@ -3,11 +3,15 @@
 # NumPy Arrays
 
 ## Introduction
-NumPy arrays are a powerful data structure used in scientific computing with Python. They allow for efficient storage and manipulation of numerical data, and they form the backbone of many other scientific libraries in Python.
+
+NumPy arrays are a powerful data structure used in scientific computing with
+Python. They allow for efficient storage and manipulation of numerical data, and
+they form the backbone of many other scientific libraries in Python.
 
 ### Creating Arrays
 
 #### 1. Basic Array
+
 A NumPy array can be created from a Python list using `numpy.array`.
 
 ```python
@@ -19,6 +23,7 @@ print(arr)
 ```
 
 #### 2. Array from List
+
 Arrays can also be created from Python lists directly.
 
 ```python
@@ -37,6 +42,7 @@ print(arr)
 ```
 
 #### 4. `arange`
+
 The `arange` function returns evenly spaced values within a given interval.
 
 ```python
@@ -143,6 +149,7 @@ print(arr[-1]) # Output: 5
 ```
 
 #### 2. Slicing
+
 You can access a range of elements using slicing.
 
 ```python
@@ -152,8 +159,55 @@ print(arr[:3])   # Output: [1 2 3]
 print(arr[::2])  # Output: [1 3 5]
 ```
 
-### Changing Values Using Filtering
+#####  Slicing Rows
 
+```python
+# Create a 2D array
+arr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print("Original 2D array:\n", arr_2d)
+
+# Slice the first two rows
+print("First two rows:\n", arr_2d[:2])
+```
+
+#####  Slicing Columns
+
+```python
+# Slice the last two columns
+print("Last two columns:\n", arr_2d[:, 1:])
+```
+
+##### Slicing Both Rows and Columns
+
+```python
+# Slice the first two rows and last two columns
+print("First two rows, last two columns:\n", arr_2d[:2, 1:])
+```
+
+#### More Complex Slicing
+
+You can also combine advanced indexing techniques like intervals (strides) in your slices.
+
+#####  Skipping Rows or Columns
+
+```python
+# Skip every other row
+print("Every other row:\n", arr_2d[::2])
+
+# Skip every other column
+print("Every other column:\n", arr_2d[:, ::2])
+
+#Reverse Slicing
+#Reversing the order of elements is another common use case.
+# Reverse the entire array
+print("Reversed array:\n", arr_2d[::-1])
+
+# Reverse the order of columns
+print("Reversed columns:\n", arr_2d[:, ::-1])
+```
+
+### Changing Values Using Filtering
+```
 You can change specific values in a NumPy array using filtering (also known as boolean indexing). This involves creating a boolean mask that identifies the elements to be changed and then applying the change.
 
 ```python
