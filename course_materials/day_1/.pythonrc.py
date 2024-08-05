@@ -13,7 +13,7 @@ def play_beep():
         if system == "windows":
             import winsound
 
-            winsound.Beep(1000, 500)  # 1000 Hz for 500 ms
+            winsound.Beep(1000,250)  # 1000 Hz for 500 ms
         elif system == "darwin":  # macOS
             import os
 
@@ -104,3 +104,6 @@ def set_custom_display():
 
 
 set_custom_display()
+
+#Added by Ken Perry
+cdir =lambda x : [item for item in dir(x) if not item.startswith("_")]
