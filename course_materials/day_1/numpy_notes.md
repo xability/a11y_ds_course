@@ -285,3 +285,62 @@ copy_arr[0] = 99
 print(arr)  # Output: [1 2 3 4 5]
 print(copy_arr)  # Output: [99  2  3  4  5]
 ```
+
+## Numpy types
+
+
+### Boolean Types
+- `bool_`
+  - Represents boolean (True or False) as a byte.
+
+### Integer Types
+- `int_` (equivalent to `int64` or `int32` depending on the platform)
+  - Default integer type (same as `int` in Python).
+- `intc` (equivalent to C `int` usually `int32` or `int64`)
+  - Used for compatibility with C code.
+- `intp` (used for indexing, equivalent to C `ssize_t`)
+  - Used for indexing (same size as a pointer).
+- `int8`
+  - Byte (-128 to 127).
+- `int16`
+  - Integer (-32768 to 32767).
+- `int32`
+  - Integer (-2147483648 to 2147483647).
+- `int64`
+  - Integer (-9223372036854775808 to 9223372036854775807).
+
+### Unsigned Integer Types
+- `uint8`
+  - Unsigned integer (0 to 255).
+- `uint16`
+  - Unsigned integer (0 to 65535).
+- `uint32`
+  - Unsigned integer (0 to 4294967295).
+- `uint64`
+  - Unsigned integer (0 to 18446744073709551615).
+
+### Floating Point Types
+- `float_` (equivalent to `float64`)
+  - Double precision float: sign bit, 11 bits exponent, 52 bits mantissa.
+- `float16`
+  - Half precision float: sign bit, 5 bits exponent, 10 bits mantissa.
+- `float32`
+  - Single precision float: sign bit, 8 bits exponent, 23 bits mantissa.
+- `float64`
+  - Double precision float: sign bit, 11 bits exponent, 52 bits mantissa.
+
+### Complex Number Types
+- `complex_` (equivalent to `complex128`)
+  - Complex number, represented by two 64-bit floats (real and imaginary components).
+- `complex64`
+  - Complex number, represented by two 32-bit floats (real and imaginary components).
+- `complex128`
+  - Complex number, represented by two 64-bit floats (real and imaginary components).
+
+### Other Types
+- `object_`
+  - Any Python object stored in the array.
+- `string_`
+  - Fixed-length string type (each character takes up one byte).
+- `unicode_`
+  - Fixed-length unicode type (the size in bytes is platform-dependent).
