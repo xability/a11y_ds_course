@@ -524,3 +524,49 @@ Convert Series to {label -> value} dict.
 > s = pd.Series([1, 2, 3], index=['a', 'b', 'c'])
 >
 > print(s.to_dict())
+
+## Looping Through Series
+
+### Using `.items()`
+
+#### Description:
+
+Loop through a Series using `.items()` to get both the index and the corresponding value.
+
+#### Example:
+
+>
+> import pandas as pd
+>
+> s = pd.Series([1, 2, 3], index=['a', 'b', 'c'])
+> for index, value in s.items():
+>     print(f"Index: {index}, Value: {value}")
+
+### Using `.keys()`
+
+#### Description:
+
+Loop through a Series using `.keys()` to get the index labels. This can be used to access the values by indexing.
+
+#### Example:
+
+>
+> s = pd.Series([1, 2, 3], index=['a', 'b', 'c'])
+> for index in s.keys():
+>     print(f"Index: {index}, Value: {s[index]}")
+
+### Using a direct `for` loop
+
+#### Description:
+
+Directly loop through the values of a Series. This method does not provide the index, only the values.
+
+#### Example:
+
+>
+> import pandas as pd
+>
+> s = pd.Series([1, 2, 3], index=['a', 'b', 'c'])
+> for value in s:
+>     print(f"Value: {value}")
+

@@ -294,3 +294,98 @@ df = pd.DataFrame({'A': [1, 3, 2], 'B': [4, 6, 5]})
 print(df.median())
 ```
 
+
+## Accessing Elements in DataFrames
+
+### Using Brackets
+
+#### Description:
+
+Brackets are used for simple indexing, which is primarily for accessing columns.
+
+#### Example:
+
+```python
+import pandas as pd
+
+df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+# Accessing a single column
+print(df['A'])
+
+# Accessing multiple columns
+print(df[['A', 'B']])
+```
+
+#### When to use:
+
+- Use brackets when you need to select a subset of the data by column labels or a range of rows via slicing.
+- Suitable for quick and straightforward access.
+
+### Using `loc`
+
+#### Description:
+
+`loc` is label-based data selecting method which means that we have to pass the
+name of the row or column which we want to select. This method includes the last
+element of the range passed in it.
+
+#### Example:
+
+```python
+# Accessing a single row by index label
+print(df.loc[0])
+
+# Accessing multiple rows and columns by labels
+print(df.loc[0:2, 'A'])
+
+# Conditional access
+print(df.loc[df['A'] > 1])
+```
+
+#### When to use:
+
+- Use `loc` when indexing by label(s) or a boolean array.
+- Ideal for modifying or accessing specific rows/columns based on label.
+- Useful for when you need a more complex querying of row and column labels, with conditions.
+
+### Using `iloc`
+
+#### Description:
+
+`iloc` is integer index-based. So here, we have to specify rows and columns by their integer index.
+
+#### Example:
+
+```python
+# Accessing a single element
+print(df.iloc[0, 1])
+
+# Accessing a sub-DataFrame
+print(df.iloc[0:2, 0:2])
+```
+
+#### When to use:
+
+- Use `iloc` when you need to access elements by their integer index regardless of the DataFrame index labels.
+- Suitable for scenarios where the position of the element is important, or when working with DataFrames where the index label does not matter.
+
+
+## Looping Through DataFrames
+
+### Iterating Over Rows
+
+#### Using `iterrows()`
+
+#### Description: 
+
+Iterate over DataFrame rows as (index, Series) pairs.
+
+#### Example:
+
+```python
+import pandas as pd
+
+df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+for index, row in df.iterrows():
+    print(f"Index: {index}, Row: {row.tolist()}")
+
