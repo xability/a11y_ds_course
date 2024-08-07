@@ -1,4 +1,11 @@
 """Written by JooYoung Seo (jseo1005@illinois.edu)
+Changed by Ken Perry
+
+I like being able to use the default while using the tables  functions so I created a 
+method that tables the df without making it default.
+
+
+
 The following works on Windows, Mac, and Linux universally.
 Also works on both standard Python and IPython."""
 
@@ -118,6 +125,8 @@ def set_custom_display():
 
 # Added by Ken Perry
 cdir = lambda x: [item for item in dir(x) if not item.startswith("_")]
+fdir = lambda t, f : [item for item in dir(t) if not item.startswith("_") and f in item]
+
 
 
 # New function to turn off beeping
@@ -165,3 +174,17 @@ def table_off():
 # Call the initialization functions
 initialize_error_beep()
 set_custom_display()
+
+
+def table_df(_df,with_index=False):
+    from pandas import DataFrame
+    from great_tables import GT
+    # Reset the index to include it as a column
+    if with_index:
+        _df = _df.reset_index()
+
+    # Create a GreatTable from the DataFrame
+    gt = GT(_df)
+    
+    # Display the table in the default web browser
+    gt.show()
