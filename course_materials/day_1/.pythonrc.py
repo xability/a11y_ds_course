@@ -1,6 +1,8 @@
 """Written by JooYoung Seo (jseo1005@illinois.edu)
 The following works on Windows, Mac, and Linux universally.
-Also works on both standard Python and IPython."""
+Also works on both standard Python and IPython.
+
+Add this file to PYTHONSTARTUP environment variable."""
 
 
 # Play beep for errors
@@ -13,7 +15,7 @@ def play_beep():
         if system == "windows":
             import winsound
 
-            winsound.Beep(1000,250)  # 1000 Hz for 500 ms
+            winsound.Beep(1000, 250)  # 1000 Hz for 250 ms
         elif system == "darwin":  # macOS
             import os
 
@@ -72,11 +74,9 @@ def initialize_error_beep():
 
         # Set the custom exception handler for IPython
         ip.set_custom_exc((Exception,), custom_exc_handler)
-        print("Error beep system initialized for IPython.")
-
-
-# Call the initialization function
-initialize_error_beep()
+        print(
+            "Error beep system initialized for IPython.\nUse `beep_off()` to turn off beep on errors."
+        )
 
 
 # Make pandas DataFrame print more accessible
@@ -99,11 +99,49 @@ def custom_display_str(self):
 def set_custom_display():
     from pandas import DataFrame
 
+    DataFrame._original_repr = DataFrame.__repr__
     DataFrame._repr_html_ = custom_display_html
     DataFrame.__repr__ = custom_display_str
+    print(
+        "HTML printing for pandas DataFrame is on. Use `table_off()` if you would like to go back to the default pandas print mode."
+    )
 
 
+# Added by Ken Perry
+cdir = lambda x: [item for item in dir(x) if not item.startswith("_")]
+
+
+# New function to turn off beeping
+def beep_off():
+    import sys
+
+    global custom_excepthook
+    custom_excepthook = sys.excepthook
+    sys.excepthook = sys.__excepthook__
+    print("Error beep system turned off.")
+
+
+# New function to restore original DataFrame printing behavior
+def table_off():
+    from pandas import DataFrame
+    from pandas.io.formats import format as fmt
+
+    # Restore original _repr_html_ method
+    DataFrame._repr_html_ = None
+
+    # Restore original __repr__ method
+    if hasattr(DataFrame, "_original_repr"):
+        DataFrame.__repr__ = DataFrame._original_repr
+    else:
+        # If original __repr__ is not stored, use a default implementation
+        def default_repr(self):
+            return fmt.DataFrameFormatter(self).to_string()
+
+        DataFrame.__repr__ = default_repr
+
+    print("Original DataFrame printing behavior restored.")
+
+
+# Call the initialization functions
+initialize_error_beep()
 set_custom_display()
-
-#Added by Ken Perry
-cdir =lambda x : [item for item in dir(x) if not item.startswith("_")]
