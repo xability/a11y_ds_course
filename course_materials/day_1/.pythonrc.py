@@ -1,8 +1,11 @@
 """Written by JooYoung Seo (jseo1005@illinois.edu)
 The following works on Windows, Mac, and Linux universally.
-Also works on both standard Python and IPython.
+Also works on both standard Python and IPython."""
 
-Add this file to PYTHONSTARTUP environment variable."""
+import sys
+
+# Store the original excepthook
+original_excepthook = sys.excepthook
 
 
 # Play beep for errors
@@ -40,9 +43,12 @@ def custom_excepthook(exc_type, exc_value, exc_traceback):
     traceback.print_exception(exc_type, exc_value, exc_traceback)
 
 
+# Store IPython's custom exception handler
+ipython_custom_exc_handler = None
+
+
 def initialize_error_beep():
-    # Import sys here to avoid global import
-    import sys
+    global ipython_custom_exc_handler
 
     # Set the custom exception hook for standard Python
     sys.excepthook = custom_excepthook
@@ -52,7 +58,9 @@ def initialize_error_beep():
         __IPYTHON__
     except NameError:
         # We are not in IPython, we're done
-        print("Error beep system initialized for standard Python.")
+        print(
+            "Error beep system initialized for standard Python.\nUse `beep_off()` to turn off beep on errors."
+        )
     else:
         # We are in IPython, so we need to set up custom exception handling
         try:
@@ -72,11 +80,12 @@ def initialize_error_beep():
             # Call IPython's default exception handler
             shell.showtraceback((etype, evalue, tb), tb_offset=tb_offset)
 
+        # Store IPython's custom exception handler
+        ipython_custom_exc_handler = custom_exc_handler
+
         # Set the custom exception handler for IPython
         ip.set_custom_exc((Exception,), custom_exc_handler)
-        print(
-            "Error beep system initialized for IPython.\nUse `beep_off()` to turn off beep on errors."
-        )
+        print("Error beep system initialized for IPython.")
 
 
 # Make pandas DataFrame print more accessible
@@ -103,7 +112,7 @@ def set_custom_display():
     DataFrame._repr_html_ = custom_display_html
     DataFrame.__repr__ = custom_display_str
     print(
-        "HTML printing for pandas DataFrame is on. Use `table_off()` if you would like to go back to the default pandas print mode."
+        "HTML printing for pandas DataFrame is on.\nUse `table_off()` if you would like to go back to the default pandas print mode."
     )
 
 
@@ -113,11 +122,21 @@ cdir = lambda x: [item for item in dir(x) if not item.startswith("_")]
 
 # New function to turn off beeping
 def beep_off():
-    import sys
+    global ipython_custom_exc_handler
 
-    global custom_excepthook
-    custom_excepthook = sys.excepthook
-    sys.excepthook = sys.__excepthook__
+    # Turn off beeping for standard Python
+    sys.excepthook = original_excepthook
+
+    # Turn off beeping for IPython
+    try:
+        __IPYTHON__
+        from IPython.core.getipython import get_ipython
+
+        ip = get_ipython()
+        ip.set_custom_exc((), None)
+    except NameError:
+        pass
+
     print("Error beep system turned off.")
 
 
@@ -127,7 +146,8 @@ def table_off():
     from pandas.io.formats import format as fmt
 
     # Restore original _repr_html_ method
-    DataFrame._repr_html_ = None
+    if hasattr(DataFrame, "_repr_html_"):
+        del DataFrame._repr_html_
 
     # Restore original __repr__ method
     if hasattr(DataFrame, "_original_repr"):
