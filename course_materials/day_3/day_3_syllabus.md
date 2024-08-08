@@ -3,7 +3,7 @@
 
 ## Objective:
 To introduce basic data exploration, filtering, and data cleaning techniques
-using pandas with the Student created Excel sheet and penguin dataset.
+using pandas with the sample Excel sheet and penguin dataset.
 
 ---
 
