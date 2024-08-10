@@ -14,4 +14,8 @@ print ("Original DataFrame ",df)
 
 pivot_df = df.pivot(index = 'shopping_list', columns = 'item_number', values = 'item')
 
-print ("Pivoted DataFrame ", pivot_df)
+print ("Pivoted DataFrame \n", pivot_df)
+
+melt_df = pivot_df.reset_index().melt(id_vars='shopping_list', value_name='item').dropna().sort_values(by=['shopping_list', 'item_number'])
+
+print ("melted back to normal \n", melt_df)
