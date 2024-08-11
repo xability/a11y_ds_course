@@ -9,7 +9,7 @@
 -   [Awesome Pandas a resource gathering
     site](https://github.com/tommyod/awesome-pandas)
 
-- [Applied Data Science with Python � Business Intelligence for Developers [Full Book](https://www.freecodecamp.org/news/applied-data-science-with-python-book/)
+- [Applied Data Science with Python Business Intelligence for Developers [Full Book](https://www.freecodecamp.org/news/applied-data-science-with-python-book/)
 
 - [Numpy documentation](https://numpy.org/doc/https://numpy.org/doc/)
 
