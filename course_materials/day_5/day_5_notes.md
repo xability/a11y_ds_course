@@ -57,6 +57,24 @@ If you have fewer categories but want to emphasize them, you might go with somet
 - Each bar's height (or length in the case of horizontal bar plots) is proportional to the value it represents.
 - Bar plots are useful for comparing different categories or groups.
 
+### When to Use a Bar Plot:
+
+- **Regular Bar Plot**: Use when you want to compare the size of different categories (e.g., sales of different products).
+- **Count Plot**: Use when you want to see how often each category occurs (e.g., number of customers per region).
+- **Stacked Bar Plot**: Use when you want to show the total value and the composition of sub-categories (e.g., total sales by region and by product type).
+- **Grouped Bar Plot**: Use when you want to compare sub-categories within main categories (e.g., comparing sales of different products across regions).
+
+**Group and stacked** There are more notes in the last section of these notes on
+these types.
+
+
+### Best for:
+
+- Categorical data.
+- Comparing values across categories.
+- Showing the composition of categories.
+
+
 ## Key Components:
 
 - **X-axis (Categories)**: Represents the different categories or groups.
@@ -140,9 +158,20 @@ The main purpose of a stacked bar plot is to compare the total values across cat
 
 ## What is a Histogram?
 
+
 - A histogram is a type of bar chart that represents the distribution of a numeric variable.
 - It shows how frequently each value occurs by dividing the data into intervals, called bins.
 - The height of each bar in the histogram reflects the count or frequency of data points within that bin.
+
+### When to Use a Histogram:
+- Use when you want to understand the distribution of a numeric variable (e.g., distribution of ages in a population).
+- Use to identify patterns such as skewness, modality (e.g., unimodal, bimodal), and the presence of outliers.
+
+### Best for:
+- Continuous or numeric data.
+- Analyzing the distribution of data.
+- Identifying the spread and center of the data.
+
 
 ## Key Components:
 - **X-axis (Number line)**: Represents the range of the data values.
