@@ -165,8 +165,12 @@ The main purpose of a stacked bar plot is to compare the total values across cat
 
 ### When to Use a Histogram:
 - Use when you want to understand the distribution of a numeric variable (e.g., distribution of ages in a population).
-- Use to identify patterns such as skewness, modality (e.g., unimodal, bimodal), and the presence of outliers.
-
+- Use to identify patterns such as skewness, modality (e.g., unimodal, bimodal),
+    and the presence of outliers.  A note for those who do not want to look up the
+    definitions.  skewness relates to if the data is right left or balanced.  And
+    unimodal means there is a piak in the data. Bimodal means there are two peaks. 
+    I wonder if there can be more if you have lots of intervals.
+    
 ### Best for:
 - Continuous or numeric data.
 - Analyzing the distribution of data.
