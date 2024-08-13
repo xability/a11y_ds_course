@@ -57,7 +57,7 @@ If you have fewer categories but want to emphasize them, you might go with somet
 - Each bar's height (or length in the case of horizontal bar plots) is proportional to the value it represents.
 - Bar plots are useful for comparing different categories or groups.
 
-### When to Use a Bar Plot:
+## When to Use a Bar Plot:
 
 - **Regular Bar Plot**: Use when you want to compare the size of different categories (e.g., sales of different products).
 - **Count Plot**: Use when you want to see how often each category occurs (e.g., number of customers per region).
@@ -68,7 +68,7 @@ If you have fewer categories but want to emphasize them, you might go with somet
 these types.
 
 
-### Best for:
+## Best for:
 
 - Categorical data.
 - Comparing values across categories.
