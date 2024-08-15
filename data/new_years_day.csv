@@ -1,0 +1,109 @@
+Address,Date time,Minimum Temperature,Maximum Temperature,Temperature,Weather Type,Latitude,Longitude,Resolved Address,Name,Info,Conditions
+"""Louisville, KY""",12/31/1970,28.1,35.3,31.5,"Light Snow, Fog, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1971,19.1,38.9,30.4,Smoke Or Haze,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1971,29.1,38.9,34.2,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1972,25.1,45.0,35.6,"Light Drizzle, Fog, Rain Showers, Light Rain, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1972,39.1,56.9,45.8,"Rain Showers, Sky Coverage Increasing",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1973,28.3,41.9,34.3,"Sky Coverage Decreasing, Sky Coverage Increasing",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1973,26.1,31.0,29.9,"Light Snow, Fog, Freezing Drizzle/Freezing Rain, Light Freezing Rain, Smoke Or Haze, Snow",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1974,15.7,26.0,19.6,"Snow Showers, Light Snow, Sky Coverage Increasing",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1974,42.2,62.0,48.6,"Light Drizzle, Rain, Fog, Light Rain, Sky Coverage Increasing, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1975,33.0,46.1,39.7,"Drizzle, Light Drizzle, Sky Coverage Decreasing, Sky Coverage Increasing",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1975,37.1,47.5,44.0,"Drizzle, Light Drizzle, Rain, Fog, Heavy Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1976,31.3,37.1,35.2,"Fog, Sky Coverage Increasing, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1976,2.5,16.6,10.1,"Snow Showers, Light Snow, Sky Coverage Increasing, Snow",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1977,6.2,25.6,14.3,Sky Coverage Increasing,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1977,36.6,42.2,39.3,"Fog, Sky Coverage Increasing, Sky Unchanged, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1978,23.8,41.1,34.1,"Snow And Rain Showers, Snow Showers, Drizzle, Light Snow, Light Drizzle, Rain Showers, Fog, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1978,47.9,61.6,54.1,"Drizzle, Light Drizzle, Fog, Light Rain, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1979,27.0,55.5,38.9,"Drizzle, Light Drizzle, Rain, Fog, Freezing Drizzle/Freezing Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1979,34.1,43.1,38.9,"Fog, Sky Coverage Decreasing, Sky Coverage Increasing, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1980,31.0,35.0,32.6,"Mist, Fog, Sky Coverage Increasing, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1980,33.2,46.1,37.9,"Sky Coverage Increasing, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1981,34.6,37.6,35.6,"Light Snow, Light Drizzle, Rain Showers, Sky Coverage Increasing, Snow",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1981,30.0,44.0,37.7,"Light Drizzle, Fog, Light Rain, Sky Coverage Increasing, Sky Unchanged, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1982,25.1,44.0,31.9,"Light Drizzle, Fog, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1982,24.7,39.9,31.3,"Fog, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1983,22.1,44.5,32.7,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1983,4.5,30.0,17.7,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1984,23.2,39.4,32.2,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1984,47.6,59.6,51.8,"Light Drizzle, Thunderstorm, Fog, Rain Showers, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1985,35.1,66.4,50.3,"Light Drizzle, Fog, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1985,28.6,48.8,42.0,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1986,19.1,41.7,30.2,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1986,32.7,38.0,35.3,"Fog, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1987,28.1,38.9,33.6,"Snow Showers, Light Snow, Light Drizzle, Fog, Smoke Or Haze, Snow",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1987,35.9,47.0,44.0,"Light Drizzle, Rain, Fog, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1988,23.8,34.1,29.2,"Light Drizzle, Fog",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1988,26.2,44.4,35.5,"Fog, Rain Showers, Light Rain, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1989,31.9,43.5,37.9,"Light Drizzle, Rain Showers, Fog, Light Rain, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1989,33.7,54.2,42.2,"Light Drizzle, Fog, Rain Showers, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1990,28.2,39.4,34.1,Light Snow,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1990,15.2,23.1,18.8,"Light Snow, Fog",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1991,18.7,42.7,28.5,Fog,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1991,37.6,42.7,39.5,"Light Drizzle, Fog, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1992,33.2,53.0,41.4,"Fog, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1992,29.4,61.0,49.6,"Light Drizzle, Rain, Fog, Rain Showers, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1993,25.4,29.4,27.1,Light Snow,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1993,20.9,39.7,29.2,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1994,27.9,39.3,35.4,"Ice, Light Drizzle, Fog, Light Rain, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1994,44.9,48.8,47.1,"Mist, Light Drizzle, Fog, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1995,26.9,47.9,38.5,"Light Snow, Light Drizzle, Fog, Light Rain, Snow",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1995,41.5,45.8,43.3,"Mist, Light Drizzle, Fog, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1996,43.1,47.9,45.6,"Mist, Light Drizzle, Fog, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1996,46.9,54.1,50.7,"Mist, Light Drizzle, Fog, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1997,46.1,54.1,49.9,"Drizzle, Mist, Light Drizzle, Fog, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1997,19.1,26.9,24.6,"Light Snow, Mist, Fog",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1998,15.9,43.9,30.7,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1998,16.9,29.0,23.6,"Light Snow, Mist, Fog",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/1999,12.5,25.9,18.8,Light Snow,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/1999,31.1,53.3,42.2,"Mist, Fog",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2000,32.1,60.2,44.6,"Mist, Fog, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2000,20.5,26.2,23.0,"Mist, Light Snow, Fog",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2001,21.6,27.5,24.6,"Light Snow, Mist, Fog, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2001,16.0,25.6,20.6,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2002,15.3,30.1,22.6,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2002,47.4,56.4,51.8,"Mist, Rain, Fog, Heavy Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2003,35.8,47.4,40.7,"Mist, Light Drizzle, Rain, Fog, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2003,29.3,54.6,42.1,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2004,32.9,56.3,44.3,"Mist, Rain, Heavy Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2004,53.3,57.1,55.6,"Mist, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2005,51.7,59.1,55.1,"Mist, Rain, Heavy Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2005,34.9,49.5,42.4,Mist,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2006,30.9,60.6,44.8,Mist,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2006,52.0,65.4,56.0,"Mist, Light Drizzle, Rain, Heavy Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2007,37.1,50.0,40.7,"Mist, Light Drizzle, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2007,29.5,52.6,41.0,"Mist, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2008,18.5,37.1,28.3,"Snow Showers, Light Snow, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2008,24.2,50.1,33.6,"Light Snow, Fog, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2009,18.8,42.7,30.3,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2009,34.5,43.0,39.6,"Mist, Light Drizzle, Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2010,17.2,31.2,21.8,Light Snow,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2010,51.6,68.0,59.0,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2011,29.3,62.4,47.1,"Mist, Rain, Heavy Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2011,43.3,52.2,47.3,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2012,35.4,58.2,48.4,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2012,27.4,38.1,34.0,"Mist, Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2013,31.3,36.5,34.5,"Ice, Mist, Rain, Light Rain, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2013,24.3,38.4,30.4,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2014,30.2,47.4,38.1,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2014,17.9,30.4,24.4,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2015,22.9,40.0,31.4,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2015,32.6,38.0,34.8,Light Snow,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2016,29.5,42.6,34.4,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2016,35.0,44.8,41.3,"Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2017,35.6,48.8,43.8,"Mist, Light Drizzle, Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2017,8.5,19.6,12.9,Light Snow,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2018,3.3,17.0,9.5,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2018,44.4,65.9,55.2,"Mist, Light Drizzle, Rain, Heavy Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2019,43.5,54.5,46.6,Light Drizzle,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2019,38.0,49.2,40.0,Light Rain,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2020,35.2,50.0,42.3,,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2020,33.1,37.6,34.5,"Mist, Rain, Heavy Rain, Light Rain, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2021,35.0,60.2,44.3,"Light Snow, Mist, Rain, Light Rain And Snow, Heavy Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2021,48.8,66.8,58.0,"Mist, Rain, Heavy Rain, Light Rain, Smoke Or Haze",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2022,55.1,64.1,58.4,"Mist, Rain, Heavy Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2022,42.5,56.1,52.7,"Mist, Rain, Fog, Heavy Rain, Light Rain",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2023,40.0,56.1,47.9,"Mist, Fog",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",12/31/2023,33.7,44.1,37.6,"Mist, Light Snow",38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
+"""Louisville, KY""",01/01/2024,32.6,38.5,35.9,Light Snow,38.2549,-85.7667,"Louisville, KY, United States","Louisville, KY, United States",,Clear
