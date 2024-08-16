@@ -16,7 +16,7 @@ QueryLocation = "&location=" + urllib.parse.quote(location)
 QueryType = "HISTORY".upper()
 
 # Set up the key parameter for our query
-QueryKey = "&key=" + "ND3B2RTGS72DHDST8FSY5EZT2"
+QueryKey = "&key=" + "CZJGGTRAG7RZQTZQE84NG8H5T"
 
 # Writing to a CSV file
 with open("total_2023.csv", "w", newline="", encoding="utf-8") as csvfile:
